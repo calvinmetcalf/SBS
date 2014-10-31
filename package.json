@@ -1,0 +1,31 @@
+{
+  "name": "SBS",
+  "version": "1.0.0",
+  "description": "Sync Buffer Stream: A stream that synchronously buffers and then drains on the next tick.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tspec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/calvinmetcalf/SBS.git"
+  },
+  "keywords": [
+    "stream",
+    "cache"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calvinmetcalf/SBS/issues"
+  },
+  "homepage": "https://github.com/calvinmetcalf/SBS",
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "readable-stream": "^1.0.33"
+  },
+  "devDependencies": {
+    "tap-spec": "^1.0.1",
+    "tape": "^3.0.1"
+  }
+}

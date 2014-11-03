@@ -1,5 +1,5 @@
 {
-  "name": "SBS",
+  "name": "sbs",
   "version": "1.0.0",
   "description": "Sync Buffer Stream: A stream that synchronously buffers and then drains on the next tick.",
   "main": "index.js",
